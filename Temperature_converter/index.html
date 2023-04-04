@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Temperature Converter
+        </h1>
+        <p class="page-subtitle">
+            Values in Celsius, Kelvin, and Fahrenheit.</p>
+            <br>
+
+        <label for="moeda">Enter the Value: </label><br>
+        <input type="number" id="temperatura" size="2" required placeholder="Enter the number" /><br>
+        <button type="submit" onclick="KelvinEmCelsius()">Kelvin to Celsius</button>
+        <button type="submit" onclick="KelvinEmFahrenheit()">Kelvin to Fahrenheit</button>
+        <button type="submit" onclick="CelsiusEmKelvin()">Celsius to Kelvin</button> <br>
+        <button type="submit" onclick="CelsiusEmFahrenheit()">Celsius to Fahrenheit</button>
+        <button type="submit" onclick="FahrenheitEmCelsius()">Fahrenheit to Celsius</button>
+        <button type="submit" onclick="FahrenheitEmKelvin()">Fahrenheit to Kelvin</button>
+
+        <div id="result"> </div>
+    </div>
+
+<footer>
+    <p>Code by - Saurabh Singh </p>
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
